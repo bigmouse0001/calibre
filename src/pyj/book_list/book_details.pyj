@@ -496,7 +496,7 @@ def download_format(book_id, fmt):
 
 def download_book(book_id):
     fmt = preferred_format(book_id, True)
-    download_format(book_id, fmt)
+    download_format(comment, fmt)
 
 
 def next_book(book_id, delta):
